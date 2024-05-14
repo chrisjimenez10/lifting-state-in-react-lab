@@ -1,7 +1,8 @@
 
+
 const IngredientList = (props) => {
    const {availableIngredients, addToBurger} = props;
-   console.log()
+   
 
     const handleAddBurger = (ingredient) => {
         addToBurger(ingredient);
